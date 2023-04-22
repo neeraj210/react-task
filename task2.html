@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show and Clear</title>
+</head>
+
+<body>
+
+    <h1 id="abc" style="display: none;">MAHARASHTRA</h1>
+    <button onclick="return show();">Show</button>
+    <button onclick="return hide();">Clear</button>
+    
+</body>
+
+<script>
+    const myText = document.getElementById("abc");
+
+    function show(){
+        myText.style.display = "block";
+        
+    }
+    
+    function hide(){
+        
+        myText.style.display = "none";
+    }
+
+</script>
+
+
+</html>

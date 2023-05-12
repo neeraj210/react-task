@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.text {
+  color: #9f0404;
+  font-family: "Trirong", serif;
+}
+
+.navbar-brand {
+  color: #9f0404;
+  margin-right: 100px;
+}
+
+.nav-item{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: 100px;
+  font-size: large;
+}
+
+.container{
+  background-color: rgb(218, 255, 255);
+  width: 100%;
+}
